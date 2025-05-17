@@ -2,6 +2,7 @@ name: Kyle Kochi
 title: Kyle Kochi | Engineer
 description: 
 url: kykochi.github.io
+theme: minima
 header_pages: 
   - index.md
   - projects.md
