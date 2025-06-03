@@ -2,7 +2,13 @@ name: Kyle Kochi
 title: Kyle Kochi 
 description: 
 url: kykochi.github.io
-theme: minima
-header_pages: 
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+nav_pages: 
   - index.md
   - projects.md
+  - about.md
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
